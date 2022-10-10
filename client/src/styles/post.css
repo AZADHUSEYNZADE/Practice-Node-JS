@@ -1,0 +1,21 @@
+.mainBoxDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+}
+.title,
+.footer {
+  background-color: brown;
+  color: white;
+  padding: 5px;
+}
